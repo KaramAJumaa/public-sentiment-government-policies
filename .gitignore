@@ -1,0 +1,33 @@
+# Large raw datasets (download directly from Kaggle due to GitHub file size limits)
+# https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets?select=hashtag_donaldtrump.csv
+hashtag_donaldtrump.csv
+hashtag_joebiden.csv
+*.zip
+*.tar.gz
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter / IDE files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and scratch files
+*.log
+scratch/
